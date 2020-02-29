@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- item 中的 id 要和 对应的 fragment 的 id 保持一致 -->
+    <item
+        android:id="@+id/fragment12"
+        android:contentDescription="首页"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="首页"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fragment22"
+        android:contentDescription="邮件"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="邮件"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fragment32"
+        android:contentDescription="我的"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="我的"
+        app:showAsAction="always" />
+</menu>
